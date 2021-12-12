@@ -1,6 +1,6 @@
 # Programación Web Uno
 
-> ## Grupo: 1557
+> Grupo: 1557
 
 ## Integrantes:
 
