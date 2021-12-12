@@ -1,5 +1,6 @@
 .st1{
     background-color: rgb(148, 228, 111);
+    background-image: url(https://fotografias.lasexta.com/clipping/cmsimages01/2019/02/27/6E3F73C3-C4D3-447A-9440-16176B103C31/98.jpg?crop=1920,1080,x0,y0&width=1900&height=1069&optimize=high&format=webply);
 }
 
 .tabla1{
@@ -11,4 +12,14 @@
     text-align: center  ;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.tex2{
+    font-size: 20px;
+}
+.tex3{
+    color: rgb(246, 248, 105);
+}
+.bo{
+    border-radius: 30px;
 }
