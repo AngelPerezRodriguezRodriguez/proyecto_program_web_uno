@@ -1,0 +1,14 @@
+.fondo{
+    background-color:black;
+}
+.margen{
+    padding: 50px;
+}
+
+body{
+    background-image: url("https://live.staticflickr.com/65535/51739690487_2118ec0a07_o.jpg");
+    background-size: cover;
+    margin:0;
+    height: 100vh;
+    background-repeat: no-repeat;  
+}
