@@ -1,11 +1,12 @@
-# proyecto_program_web_uno
-# Grupo: 1557
+#**Programación Web Uno**
+ Grupo: 1557
 
+## Integrantes:
 
-# Nájera Cortés Erik Saúl
+-Nájera Cortés Erik Saúl
 
-# Bernal Santiago Ricardo
+-Bernal Santiago Ricardo
 
-# Pérez Rodríguez Rodríguez Angel
+-Pérez Rodríguez Rodríguez Angel
 
-# Pérez Vite Hugo Alejandro
+-Pérez Vite Hugo Alejandro
