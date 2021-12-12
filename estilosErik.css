@@ -1,0 +1,44 @@
+body{
+    background-color:#2d2d2d;
+}
+.fondo{
+    background-color: rgb(0, 0, 0); 
+    padding: 2%;       
+    width: 100%;
+}
+.fondo1{
+    background-color: rgb(48, 92, 43); 
+    text-align: center;
+}
+   
+
+.fondoimagen{
+    background-image: url(imagenes/gon.jpg); 
+    width: 1%;        
+    background-repeat: no-repeat;  
+    background-position: 108% 35%;    
+    background-size: 95%;  
+}
+.fondoimagen2{
+    background-image: url(imagenes/recuadro.png);     
+    background-size: 100%;  
+    background-repeat: no-repeat;  
+    width: 5%;
+    background-position: 50% 30%;
+    padding: 1%;
+    text-align: center;
+    color: white;
+       
+}
+.fondoimagen3{
+    background-image: url(imagenes/killua.jpg);    
+    background-repeat: no-repeat;  
+    width: 1%;
+    background-position: 1% 60%;  
+    background-size: 95%;  
+      
+}
+.titular{
+    color: white;
+}
+
