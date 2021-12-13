@@ -1,14 +1,174 @@
-.fondo{
-    background-color:black;
-}
-.margen{
-    padding: 50px;
+body {
+    /* background-color:  #04242c; */
+    background-image: radial-gradient(circle at 50% -20.71%, #04242c 0, #0b3646, #042e3f 50%, #04242c 75%, #0b3646 100%);
+    background-size: cover;
+    margin: 0;
+    height: 180vh;
+    background-repeat: no-repeat;
+    padding: 5em;
 }
 
-body{
-    background-image: url("https://live.staticflickr.com/65535/51739690487_2118ec0a07_o.jpg");
-    background-size: cover;
-    margin:0;
-    height: 100vh;
-    background-repeat: no-repeat;  
+.fondo2 {
+    background-color: white;
+    width: 45%;
+    border-radius: 30px;
+    padding: 1%;
+    float: center;
+}
+
+.fondo3 {
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.fondo4 {
+    background: #b62333;
+    width: 50%;
+    border-radius: 30px;
+    border-radius: 20px;
+    border: solid #2bbcf2;
+    color: white;
+}
+
+.centrado {
+    border-radius: 10px;
+    width: 100%;
+    float: center;
+    border: 10px solid #2bbcf2;
+}
+
+.card {
+    border: solid #2bbcf2;
+    padding: 7vh;
+    width: 10%;
+    position: absolute;
+    right: 10%;
+    bottom: auto;
+    padding-right: 4em;
+    border-radius: 30px;
+    background-color: #041c24;
+    float: right;
+}
+
+.border {
+    border: solid 1px #2bbcf2;
+    background-color: #2bbcf2;
+    width: 1em;
+    border-radius: 10px;
+}
+
+.container {
+    position: static;
+    border-radius: 5px;
+    background-color: #041c24;
+    float: right;
+    color: white;
+    text-align: right;
+}
+
+.fondotext {
+    background-color: #b62333;
+    border: solid 1px #2bbcf2;
+    border-radius: 5px;
+}
+
+.fondotext2 {
+    background-color: #043c54;
+    border: solid 1px #2bbcf2;
+    border-radius: 5px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1em solid transparent;
+    border-radius: 30px;
+    text-align: center;
+    background: linear-gradient(white, white) padding-box, url(https://static.vecteezy.com/system/resources/previews/002/380/646/non_2x/light-blue-gradient-blur-drawing-vector.jpg) border-box 0/cover;
+}
+
+.box2 {
+    float: left;
+    width: 900px;
+    height: 400px;
+    border: 1em solid transparent;
+    border-radius: 30px;
+    text-align: center;
+    background: linear-gradient(#0b3646, #042e3f) padding-box, border-box 0/cover;
+}
+
+.inf {
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-radius: 30px;
+    border: solid #2bbcf2;
+}
+
+.container {
+    padding: 1px 16px;
+    width: 100%;
+    color: white;
+    text-align: left;
+    float: right;
+}
+
+.fondoimagen {
+    background-image: url(imagenes/gon.jpg);
+    width: 1%;
+    background-repeat: no-repeat;
+    background-position: 108% 35%;
+    background-size: 95%;
+}
+
+.fondoimagen2 {
+    background-image: url(imagenes/recuadro.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 5%;
+    background-position: 50% 30%;
+    padding: 1%;
+    text-align: center;
+    color: white;
+}
+
+.fondoimagen3 {
+    background-image: url(imagenes/killua.jpg);
+    background-repeat: no-repeat;
+    width: 1%;
+    background-position: 1% 60%;
+    background-size: 95%;
+}
+
+.fondoimagen4 {
+    width: 50%;
+    margin-right: 75%;
+    border-radius: 30px;
+}
+
+.fondoimagen5 {
+    width: 50%;
+    margin-left: 50%;
+    border-radius: 30px;
+}
+
+.centrado {
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.card1 {
+    box-shadow: 1px 4px 8px 1px rgb(204, 45, 243);
+    padding: 3%;
+    width: 10%;
+    position: absolute;
+    left: 18%;
+    top: 95%;
+    color: white;
+}
+
+.texto {
+    color: white;
+    text-align: left;
+    text-size-adjust: 10px;
 }
