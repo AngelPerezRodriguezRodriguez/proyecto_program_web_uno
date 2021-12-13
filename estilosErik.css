@@ -34,11 +34,12 @@ body{
    
 
 .fondoimagen{
-    background-image: url(imagenes/gon.jpg); 
+    background-image: url(imagenes/artorias.gif); 
     width: 1%;        
     background-repeat: no-repeat;  
     background-position: 108% 35%;    
     background-size: 95%;  
+    transform: scaleX(-1);
 }
 .fondoimagen2{
     background-image: url(imagenes/recuadro.png);     
@@ -52,7 +53,7 @@ body{
        
 }
 .fondoimagen3{
-    background-image: url(imagenes/killua.jpg);    
+    background-image: url(imagenes/artorias.gif);    
     background-repeat: no-repeat;  
     width: 1%;
     background-position: 1% 60%;  
