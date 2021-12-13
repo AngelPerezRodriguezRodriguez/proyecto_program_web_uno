@@ -1,16 +1,37 @@
+@font-face {
+    font-family: holy;
+    src: url(fuentes/holysthic/Holysthic.ttf);
+}
 .st1{
     background-color: rgb(148, 228, 111);
-    width: 100%;
+    ;
     background-image: radial-gradient(circle at 50% 16.27%, #f360e8 0, #d452ec 16.67%, #ad45f0 33.33%, #783cf2 50%, #0038f4 66.67%, #0039f6 83.33%, #003cf7 100%);
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.div1{
+    background-color: burlywood;
+    font-size: 30px;
+    width: 100%;
+
 }
 
 .tabla1{
     background-image: radial-gradient(circle at 94.62% 38.04%, #fffda4 0, #ffffa2 5%, #ffffa1 10%, #f6ffa0 15%, #e5ffa0 20%, #d3ffa1 25%, #beffa3 30%, #a7fda6 35%, #8dfaaa 40%, #6cf7af 45%, #3cf2b5 50%, #00edbd 55%, #00e8c6 60%, #00e4d1 65%, #00dfdd 70%, #00dbe9 75%, #00d7f6 80%, #00d3ff 85%, #00cfff 90%, #00ccff 95%, #00c8ff 100%);
-    width: 100%;
+    border-radius: 15px;
+}
+.tabla2{
+    background-color: coral;
+}
+.titulo1{
+    font-size: 30px;
+    font-family:holy;
 }
 .tex1{
-    text-align:left;
+    text-align:center;
     font-size: 20px;
+    padding-right: 25px;
+
 }
 .tex2{
     font-size: 20px;
@@ -23,5 +44,4 @@
     margin: 10px;
 }
 .foot{
-    width: 100%;
 }
