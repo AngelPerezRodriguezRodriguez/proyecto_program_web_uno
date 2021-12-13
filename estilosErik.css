@@ -1,6 +1,14 @@
-body{
-    background-color:#2d2d2d;
+@import url('/estilos/reset.css');
+@font-face {
+    font-family: fuenteErik;
+    src: url(fuentes/fuente_erik.ttf);
 }
+
+body{
+    background-color:#002F46;
+    font-family: fuenteErik;
+}
+
 .fondo{
     background-color: rgb(0, 0, 0); 
     padding: 2%;       
@@ -9,7 +17,7 @@ body{
     
 }
 .fondo1{
-    background-color: rgb(48, 92, 43); 
+    background-color: #006D13; 
     text-align: center;
     width: 65%;        
     margin-top: 15px;
@@ -43,13 +51,17 @@ body{
 }
 .fondoimagen2{
     background-image: url(imagenes/recuadro.png);     
-    background-size: 100%;  
-    background-repeat: no-repeat;  
+    background-size: 25%;  
     width: 5%;
-    background-position: 50% 30%;
+    height: 50px;
+    background-position: 50% 55%;
     padding: 1%;
+    transform: scale(2, 2);
+    
+    background-repeat: no-repeat;      
     text-align: center;
     color: white;
+
        
 }
 .fondoimagen3{
@@ -91,8 +103,7 @@ body{
     width: 10%;
     position: absolute;
     right: 18%;    
-    bottom: 12%;
-    color: white;
+    bottom: 6%;    
   }
   
   
@@ -102,26 +113,24 @@ body{
     text-align: left;
   }
 
-  .card1 {
-    box-shadow: 1px 4px 8px 1px rgb(204, 45, 243);
+  .card1 {        
+    box-shadow: 1px 4px 8px 1px rgb(204, 45, 243);    
     padding: 3%;
     width: 10%;
     position: absolute;
     left: 18%;    
-    top: 95%;
+    top: 100%;    
     color: white;
+    
   }
   
   
   .container1 {
-    padding: 1px 16px;
-    color: white;
-    text-align: left;
+    padding: 1px 16px;    
+    text-align: left;    
   }
-.texto{
-    color: white;
-    text-align: left;
-    text-size-adjust: 10px;
+.texto{    
+    text-align: justify;    
 }
 
 
