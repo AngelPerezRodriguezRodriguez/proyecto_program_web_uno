@@ -4,7 +4,6 @@ body {
     margin: 0;
     font-size: 1.2rem;
     line-height: 1.6em;
-    height: 440vh;
     background-repeat: no-repeat;
     padding: 5em;
     font-family: GillSans;
@@ -12,15 +11,15 @@ body {
 
 .position {
     position: absolute;
-    top: 2500px;
-    left: 1000px;
+    top: 90px;
+    left: 1050px;
     width: 20%;
 }
 
 .position2 {
     position: absolute;
-    top: 1550px;
-    left: 1050px;
+    top: 100px;
+    left: 50px;
     width: 14%;
 }
 
@@ -195,8 +194,8 @@ body {
 }
 
 .fondo3 {
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 45%;
+    max-height: 45%;
 }
 
 .fondo4 {
@@ -292,55 +291,4 @@ body {
     border-radius: 15px;
     color: #2bbcf2;
     text-align: center;
-}
-
-.pad {
-    padding-left: 400px;
-}
-
-.containe {
-    width: 85%;
-    margin: 0 auto;
-    max-width: 850px;
-}
-
-.header {
-    background: #b62333;
-    border: solid 3px #2bbcf2;
-    border-radius: 30px;
-    padding: 1rem 0;
-    width: 100%;
-}
-
-.header a {
-    color: white;
-    text-decoration: none;
-}
-
-.logo-nav-container {
-    display: flex;
-    padding-left: 2em;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navigtion ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.navigtion ul li {
-    display: inline-block;
-}
-
-.navigtion ul li a {
-    display: block;
-    padding: 0.5rem 1rem;
-    transition: all 0.4s linear;
-    border-radius: 5px;
-}
-
-.navigtion ul li a:hover {
-    background: #043c54;
 }
