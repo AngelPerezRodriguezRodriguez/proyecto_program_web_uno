@@ -3,10 +3,25 @@ body {
     background-image: radial-gradient(circle at 50% -20.71%, #04242c 0, #0b3646, #042e3f 50%, #04242c 75%, #0b3646 100%);
     background-size: cover;
     margin: 0;
-    height: 500vh;
+    height: 323vh;
     background-repeat: no-repeat;
     padding: 5em;
     font-family: GillSans;
+}
+
+.position {
+    position: absolute;
+    top: 30px;
+    left: 1000px;
+    width: 20%;
+}
+
+.border3 {
+    width: 34%;
+    border: solid #2bbcf2 10px;
+    border-radius: 30px;
+    padding-left: 2px;
+    background-color: #2bbcf2;
 }
 
 @font-face {
@@ -33,11 +48,11 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    clip-path: circle(0% at 0 50%);
+    clip-path: circle(0% at 50% 50%);
 }
 
 .slider .slide.active {
-    clip-path: circle(150% at 0 50%);
+    clip-path: circle(150% at 50% 50%);
     transition: 2s;
 }
 
@@ -139,6 +154,26 @@ body {
     }
 }
 
+.foot {
+    background: #b62333;
+    position: absolute;
+    left: 0;
+    bottom: 1;
+    height: 80px;
+    min-width: 1060px;
+    width: 100%;
+    font-size: 14px;
+    max-width: 100%;
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.copyright {
+    color: white;
+}
+
 .fondo2 {
     background-color: #043c54;
     border: solid 3px #2bbcf2;
@@ -214,10 +249,19 @@ body {
 
 .text {
     color: #2bbcf2;
+    padding-left: 20px;
+}
+
+.text3 {
+    color: white;
+    text-align: justify;
+    padding-left: 20px;
 }
 
 .text2 {
-    color: white;
+    border: solid #2bbcf2 6px;
+    background: #043c54;
+    border-radius: 30px;
 }
 
 .fondotext2 {
