@@ -1,3 +1,10 @@
+/*
+https://dribbble.com/shots/3085528-praise-the-sun
+https://gifs.alphacoders.com/gifs/by_collection/582
+https://l-ii-zz.tumblr.com/post/160968959933/solaire-finally-finds-his-sun-i-started-this
+https://www.deviantart.com/stroopdog/art/Artorias-GIF-606664354
+https://steamcommunity.com/sharedfiles/filedetails/?l=latam&id=939014610
+*/
 @import url('/estilos/reset.css');
 @font-face {
     font-family: fuenteErik;
@@ -12,7 +19,7 @@ body{
 /*Inicio del header*/
 header{
     background-image: radial-gradient(circle at 50% -2.24%, #81817e 0, #404253 50%, #00082b 100%);
-    padding: 2%;         
+    padding: 1.5%;         
 
 }
 
@@ -83,17 +90,16 @@ header{
 .cuadrotext1{
     background-color: white;
     width: 45%;    
-    margin-right: 17%;
-    margin-top: 2%;
+    margin-left: 17%;
     border-radius: 30px;
     padding: 1%;
 }
 
 .cuadrotext2{
-    background-color: white;
+    background-color: white;    
     width: 45%;    
-    margin-left: 17%;
-    margin-top: 5%;
+    margin-left: 34%; 
+    margin-top: -5%;   
     border-radius: 30px;
     padding: 1%;
 }
@@ -103,10 +109,9 @@ header{
 .cuadro {
     box-shadow: 1px 4px 8px 1px rgba(255, 255, 255, 1);
     padding: 3%;
-    width: 10%;
-    position: absolute;
-    right: 18%;    
-    bottom: 6%;    
+    width: 10%;         
+    margin-left: 65%;
+    margin-top: -26%;    
   }
   
 .informacion {
@@ -124,9 +129,8 @@ header{
     box-shadow: 1px 4px 8px 1px rgb(204, 45, 243);    
     padding: 3%;
     width: 10%;
-    position: absolute;
-    left: 18%;    
-    top: 100%;    
+    margin-left:17%;     
+    margin-top: -19%;
     color: white;
     
   }
@@ -136,6 +140,27 @@ header{
     text-align: left;    
   }
 /*FIn de carta*/
+.solaire{
+    background-repeat: no-repeat;
+    background-image: url(imagenes/solarire_sentado.gif);
+    width: 25%;    
+    background-position-x: center;
+    padding: 10%;
+    margin-top: 4%;
+}
+.catarina{
+    margin-top: 5%;
+    margin-left: 55%;    
+}
+
+.parte1{
+    padding-top: 5%;
+}
+
+
+.te{
+    color: white;
+}
 
 
 
