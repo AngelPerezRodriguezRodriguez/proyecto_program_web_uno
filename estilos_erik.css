@@ -150,8 +150,12 @@ header{
     background-position: 50% 100%;        
     margin-top: 2%;
     margin-bottom: 8%;
+    
 }
 
+.catarina{
+    cursor: url("imagenes/hoguera.png"), help;
+}
 .marco{
     border: black 15px solid;
     border-image-source: url("imagenes/marco.png");
@@ -160,7 +164,7 @@ header{
 }
 
 .parte1{
-    padding-top: 5%;
+    padding-top: 8%;
 }
 
 
@@ -168,6 +172,7 @@ header{
 .te{
     margin-top: 5%;
     color: white;
+    margin-left: 17%;
 }
 
 
