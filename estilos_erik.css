@@ -5,6 +5,7 @@ https://l-ii-zz.tumblr.com/post/160968959933/solaire-finally-finds-his-sun-i-sta
 https://www.deviantart.com/stroopdog/art/Artorias-GIF-606664354
 https://steamcommunity.com/sharedfiles/filedetails/?l=latam&id=939014610
 https://www.pngegg.com/es/png-bbtjq
+https://www.reddit.com/r/ImaginaryDarkSouls/comments/d2kz3y/i_made_slave_knight_gael_fanart/
 */
 @import url('/estilos/reset.css');
 @font-face {
@@ -142,9 +143,10 @@ header{
     padding: 1px 16px;    
     text-align: left;    
   }
-/*FIn de carta*/
+/*Fin de carta*/
+
 .solaire{
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;    
     background-image: url(imagenes/solarire_sentado.gif);
     width: 25%;    
     background-position: 50% 100%;        
@@ -174,6 +176,14 @@ header{
     color: white;
     margin-left: 17%;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+nav{
+    margin-top: 1%;
+    margin-left: 2%;
+}
 
 
