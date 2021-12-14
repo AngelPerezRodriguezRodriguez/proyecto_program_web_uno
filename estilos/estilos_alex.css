@@ -20,11 +20,12 @@ body {
 
 .slider {
     position: relative;
-    background: #000116;
+    background: #043c54;
     width: 800px;
     min-height: 500px;
     margin: 20px;
     overflow: hidden;
+    border: solid 3px #2bbcf2;
     border-radius: 10px;
 }
 
@@ -49,7 +50,7 @@ body {
 
 .slider .slide .info {
     position: absolute;
-    color: #222;
+    color: black;
     background: rgba(255, 255, 255, 0.3);
     width: 30%;
     padding-left: 20px;
@@ -141,7 +142,7 @@ body {
 .fondo2 {
     background-color: #043c54;
     border: solid 3px #2bbcf2;
-    width: 45%;
+    width: 70%;
     border-radius: 30px;
     padding: 1%;
     float: center;
@@ -167,6 +168,11 @@ body {
     float: center;
     margin: 20px;
     border: 10px solid #2bbcf2;
+}
+
+.centrado2 {
+    width: 50%;
+    padding-right: 300px;
 }
 
 .card {
