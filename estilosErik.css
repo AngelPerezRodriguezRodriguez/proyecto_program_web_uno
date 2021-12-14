@@ -1,19 +1,19 @@
 @import url('/estilos/reset.css');
 @font-face {
     font-family: fuenteErik;
-    src: url(fuentes/fuente_erik.ttf);
+    src: url(fuentes/OptimusPrincepsSemiBold.ttf);
 }
 
 body{
-    background-color:#002F46;
+    background-image: radial-gradient(circle at 50% 47.14%, #64a5ff 0, #003a74 50%, #000000 100%);
     font-family: fuenteErik;
 }
 
 /*Inicio del header*/
 header{
-    background-color: #000000
-    ; 
+    background-image: radial-gradient(circle at 50% -2.24%, #81817e 0, #404253 50%, #00082b 100%);
     padding: 2%;         
+
 }
 
 .hdizq{
@@ -49,7 +49,7 @@ header{
 /*Subtitulo*/
 
 .subtitulo{
-    background-color: #006D13; 
+    background-image: linear-gradient(180deg, #9fb01f 0, #8baf21 12.5%, #70a91e 25%, #4d9f17 37.5%, #00900a 50%, #008104 62.5%, #00750d 75%, #006d1b 87.5%, #006a2a 100%);
     text-align: center;
     width: 65%;        
     margin-top: 15px;
