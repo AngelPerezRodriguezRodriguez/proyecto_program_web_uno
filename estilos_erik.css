@@ -4,6 +4,7 @@ https://gifs.alphacoders.com/gifs/by_collection/582
 https://l-ii-zz.tumblr.com/post/160968959933/solaire-finally-finds-his-sun-i-started-this
 https://www.deviantart.com/stroopdog/art/Artorias-GIF-606664354
 https://steamcommunity.com/sharedfiles/filedetails/?l=latam&id=939014610
+https://www.pngegg.com/es/png-bbtjq
 */
 @import url('/estilos/reset.css');
 @font-face {
@@ -89,6 +90,7 @@ header{
 
 .cuadrotext1{
     background-color: white;
+    text-align: center;
     width: 45%;    
     margin-left: 17%;
     border-radius: 30px;
@@ -102,6 +104,7 @@ header{
     margin-top: -5%;   
     border-radius: 30px;
     padding: 1%;
+    text-align: center;
 }
 /*FIN de Cuadros de texto*/
    
@@ -144,13 +147,16 @@ header{
     background-repeat: no-repeat;
     background-image: url(imagenes/solarire_sentado.gif);
     width: 25%;    
-    background-position-x: center;
-    padding: 10%;
-    margin-top: 4%;
+    background-position: 50% 100%;        
+    margin-top: 2%;
+    margin-bottom: 8%;
 }
-.catarina{
-    margin-top: 5%;
-    margin-left: 55%;    
+
+.marco{
+    border: black 15px solid;
+    border-image-source: url("imagenes/marco.png");
+    border-image-slice: 75;
+    text-align: right;    
 }
 
 .parte1{
@@ -158,7 +164,9 @@ header{
 }
 
 
+
 .te{
+    margin-top: 5%;
     color: white;
 }
 
