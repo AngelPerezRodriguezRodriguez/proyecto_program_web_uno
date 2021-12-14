@@ -1,9 +1,10 @@
 body {
-    /* background-color:  #04242c; */
     background-image: radial-gradient(circle at 50% -20.71%, #04242c 0, #0b3646, #042e3f 50%, #04242c 75%, #0b3646 100%);
     background-size: cover;
     margin: 0;
-    height: 323vh;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    height: 440vh;
     background-repeat: no-repeat;
     padding: 5em;
     font-family: GillSans;
@@ -11,9 +12,16 @@ body {
 
 .position {
     position: absolute;
-    top: 30px;
+    top: 2500px;
     left: 1000px;
     width: 20%;
+}
+
+.position2 {
+    position: absolute;
+    top: 1550px;
+    left: 1050px;
+    width: 14%;
 }
 
 .border3 {
@@ -159,7 +167,7 @@ body {
     position: absolute;
     left: 0;
     bottom: 1;
-    height: 80px;
+    height: 150px;
     min-width: 1060px;
     width: 100%;
     font-size: 14px;
@@ -167,11 +175,14 @@ body {
     display: flex;
     text-align: justify;
     justify-content: space-between;
-    padding: 20px;
+    padding-bottom: 20px;
+    border-top: solid white 3px;
 }
 
 .copyright {
     color: white;
+    padding-left: 20px;
+    justify-content: space-between;
 }
 
 .fondo2 {
@@ -184,8 +195,8 @@ body {
 }
 
 .fondo3 {
-    max-width: 25%;
-    max-height: 25%;
+    max-width: 20%;
+    max-height: 20%;
 }
 
 .fondo4 {
@@ -205,17 +216,12 @@ body {
     border: 10px solid #2bbcf2;
 }
 
-.centrado2 {
-    width: 50%;
-    padding-right: 300px;
-}
-
 .card {
     border: solid #2bbcf2;
     padding: 7vh;
     width: 13%;
     position: absolute;
-    right: 7%;
+    right: 3%;
     bottom: auto;
     padding-right: 5em;
     border-radius: 30px;
@@ -230,15 +236,6 @@ body {
     right: 100%;
     margin: 10px;
     border-radius: 10px;
-}
-
-.container {
-    position: static;
-    border-radius: 5px;
-    background-color: #041c24;
-    float: right;
-    color: white;
-    text-align: right;
 }
 
 .fondotext {
@@ -270,33 +267,6 @@ body {
     border-radius: 5px;
 }
 
-.box {
-    width: 100px;
-    height: 100px;
-    border: 1em solid transparent;
-    border-radius: 30px;
-    text-align: center;
-    background: linear-gradient(white, white) padding-box, url(https://static.vecteezy.com/system/resources/previews/002/380/646/non_2x/light-blue-gradient-blur-drawing-vector.jpg) border-box 0/cover;
-}
-
-.box2 {
-    float: left;
-    width: 900px;
-    height: 400px;
-    border: 1em solid transparent;
-    border-radius: 30px;
-    text-align: center;
-    background: linear-gradient(#0b3646, #042e3f) padding-box, border-box 0/cover;
-}
-
-.inf {
-    color: white;
-    text-align: center;
-    width: 100%;
-    border-radius: 30px;
-    border: solid #2bbcf2;
-}
-
 .container {
     padding: 1px 16px;
     width: 100%;
@@ -305,62 +275,72 @@ body {
     float: right;
 }
 
-.fondoimagen {
-    background-image: url(imagenes/gon.jpg);
-    width: 1%;
-    background-repeat: no-repeat;
-    background-position: 108% 35%;
-    background-size: 95%;
-}
-
-.fondoimagen2 {
-    background-image: url(imagenes/recuadro.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 5%;
-    background-position: 50% 30%;
-    padding: 1%;
+.cuadro2 {
+    background-color: #043c54;
+    border: solid 3px #2bbcf2;
+    border-radius: 15px;
+    color: #2bbcf2;
     text-align: center;
-    color: white;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
 }
 
-.fondoimagen3 {
-    background-image: url(imagenes/killua.jpg);
-    background-repeat: no-repeat;
-    width: 1%;
-    background-position: 1% 60%;
-    background-size: 95%;
+.cuadro3 {
+    background-color: #043c54;
+    border: solid 3px #2bbcf2;
+    border-radius: 15px;
+    color: #2bbcf2;
+    text-align: center;
 }
 
-.fondoimagen4 {
-    width: 50%;
-    margin-right: 75%;
+.pad {
+    padding-left: 400px;
+}
+
+.containe {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 850px;
+}
+
+.header {
+    background: #b62333;
+    border: solid 3px #2bbcf2;
     border-radius: 30px;
+    padding: 1rem 0;
+    width: 100%;
 }
 
-.fondoimagen5 {
-    width: 50%;
-    margin-left: 50%;
-    border-radius: 30px;
-}
-
-.centrado {
-    border: 1px solid white;
-    border-radius: 30px;
-}
-
-.card1 {
-    box-shadow: 1px 4px 8px 1px rgb(204, 45, 243);
-    padding: 3%;
-    width: 10%;
-    position: absolute;
-    left: 18%;
-    top: 95%;
+.header a {
     color: white;
+    text-decoration: none;
 }
 
-.texto {
-    color: white;
-    text-align: left;
-    text-size-adjust: 10px;
+.logo-nav-container {
+    display: flex;
+    padding-left: 2em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigtion ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigtion ul li {
+    display: inline-block;
+}
+
+.navigtion ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigtion ul li a:hover {
+    background: #043c54;
 }
