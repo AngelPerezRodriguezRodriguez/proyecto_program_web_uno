@@ -6,7 +6,6 @@ body {
     line-height: 1.6em;
     background-repeat: no-repeat;
     padding: 5em;
-    font-family: GillSans;
 }
 
 .position {
@@ -29,11 +28,6 @@ body {
     border-radius: 30px;
     padding-left: 2px;
     background-color: #2bbcf2;
-}
-
-@font-face {
-    font-family: GillSans;
-    src: url(/fuentes/GillSansNova-SemiBold/GillSansNova-SemiBold.ttf);
 }
 
 .icono {
