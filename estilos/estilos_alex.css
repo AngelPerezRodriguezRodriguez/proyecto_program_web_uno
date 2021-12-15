@@ -34,6 +34,10 @@ body {
     list-style-image: url("https://live.staticflickr.com/65535/51744476631_91bfa7e459_o.png");
 }
 
+.li {
+    text-align-last: end;
+}
+
 .alink {
     text-decoration: none;
     color: white;
@@ -236,7 +240,7 @@ body {
     background-color: #2bbcf2;
     width: 100%;
     right: 100%;
-    margin: 10px;
+    margin: -17px;
     border-radius: 10px;
 }
 
