@@ -4,9 +4,7 @@
 }
 .st1{
     background-color: rgb(148, 228, 111);
-    ;
-    background-image: radial-gradient(circle at 56.44% 13.48%, #00ffff 0, #00e4ff 16.67%, #00c5ec 33.33%, #08a4c8 50%, #2885a4 66.67%, #2f6982 83.33%, #2e5165 100% );
-    margin-left: 60px;
+    background-image: radial-gradient(circle at 48.45% 32.29%, #9d5eb7 0, #804cb2 16.67%, #5c3aad 33.33%, #1a2ba8 50%, #0021a3 66.67%, #001d9e 83.33%, #00179a 100%);
     margin-right: 60px;
 }
 .div1{
@@ -30,6 +28,8 @@
 }
 .table3{
     background-color: darkcyan;
+    background-image: url(https://i.gifer.com/1frW.gif);
+    color: darkorange;
 }
 .titulo1{
     font-size: 30px;
@@ -49,6 +49,7 @@
     color: rgb(248, 162, 105);
 }
 .tex4{
+    color: white;
 
 }
 .bo{
