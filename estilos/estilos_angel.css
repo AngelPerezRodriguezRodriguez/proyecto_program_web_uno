@@ -3,7 +3,6 @@
 
 
 body {
-    /*Tamaño de materias de artículos, títulos de sidebar y leyendas de imagenes sin poner; lo demás está especificado*/
     color: white;
     font-size: 20px; 
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -11,6 +10,8 @@ body {
     background-image: url(../imagenes/img_angel/videojuegos.jpg);
     background-size: cover;
 }
+
+/*HEADER*/
 
 header {
     width:100%;
@@ -32,6 +33,7 @@ a {
 /*Posición del título de la página*/
 #titulo_pag{ 
     text-align: center;
+    margin: 30px;
 }
 
 /*Color, tamaño y fuente del título de la página*/
@@ -81,11 +83,11 @@ a {
 #principal {
     width: 100%;
     float: left;
-    padding-top: 50px;
+    padding-top: 65px;
 }
 
-#contenido_completo {  /*AUMENTAR EL ESPACIO A LA DERECHA HACE LAS COSAS DE ABAJO DE proyectos SE SUBAN, pero podemos contraarrestralo aumentado el tamaño de la sidebar*/
-    width: 960px;
+#contenido_completo {                                                                                             /**/
+    width: 1200px;
     margin: auto;
     clear: both;
     
@@ -96,37 +98,39 @@ a {
 
 
 
-/*Bienvenida y gift*/
+/*BIENVENIDA*/
 
 #bienvenidos{
-    width: 960px;
+    width: 100%;                                                                                                 /**/
     background: #0471B5;
     float: left;
+    padding: 0px; /*Nos puede ser de utilidad en un futuro*/
     
     border-radius: 10px;
     box-shadow: 0px 10px 10px #000; /*Derecha, abajo y difuminado*/
-    margin: 20px 0px 80px 0px; /*Arriba, derecha, abajo e izquierda. Espacio entre bienvenida y proyectos*/
+    margin: 0px 0px 50px 0px; /*Arriba, derecha, abajo e izquierda. Espacio entre bienvenida y proyectos*/
 }
 
 #bienvenidos article {
     line-height: 40px; /*Espacio entre los renglones*/
-    padding: 30px;
+    padding: 40px;
 }
 
 /*Título*/
 #bienvenidos article h2 {
-    font-size: 35px;
-    padding-bottom: 10px; /*Espacio entre el título y el texto*/
+    font-size: 30px;
+    font-weight: bold; /*Grueso de la fuente*/
+    padding-bottom: 30px; /*Espacio entre el título y el texto*/
     text-align: center;
 }
 
 /*Contenido*/
 #bienvenidos article p {
     font-size: 25px;
-    text-align: center;
+    text-align: justify;
 }
 
-#gift_bienvenida {
+#gif_bienvenida {
     width: 90%; 
     margin: auto;
     display: block;
@@ -141,30 +145,35 @@ a {
 
 
 
-/*proyectos*/
+/*PROYECTOS*/
 
 #proyectos{
-    width: 700px;
-    float: left;
-    
+    width: 75%;                                                                                                 /**/
+    float: left;  
 }
 
+/*Borde de los proyectos*/
 #proyectos article{
     float: left;
     margin-bottom: 20px;
+    background: #540760;
+    box-shadow: 0px 10px 10px #000; /*Derecha, abajo y difuminado*/
+    padding: 30px;
+    border-radius: 10px;
 }
 
+/*Materia del proyecto*/
 #proyectos article h1 {
-    color: white;
     font-family: sourcesans;
-    font-size: 22px;
     text-align: right;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 
 #proyectos article .fecha{
     font-size: 15px;
-    color: #1F618D;                                                                                    
+    color: #3498DB ;                                                                                    
     margin-bottom: 5px;
 }
 
@@ -176,9 +185,9 @@ a {
     
 }
 
+/*Contenido del proyecto*/
 #proyectos article p{
-    color: white;
-    font-size:20px;
+    font-size:17px;
     text-align: justify;
     line-height: 30px;/*espaciando entre los renglones*/
 }
@@ -188,54 +197,46 @@ a {
 
 
 
-/*Sidebar*/
-aside {
-    width: 220px; /*AUMENTAR EL ESPACIO A LA DERECHA HACE LAS COSAS DE ABAJO DE proyectos SE SUBAN, pero podemos contraarrestralo aumentado el tamaño de la sidebar*/
-    padding: 10px 10px 0px 10px; /*arriba, derecha, abajo e izquierda*/ 
+/*SIDEBAR características revisadas*/
+
+aside {                                                                                                         /**/ 
+    width: 20%;                                                                       
+    padding: 20px 0px;
     text-align: center;
     background: #53B51F;
-    margin-left: 20px; /*Espacio entre los proyectos y la sidebar*/
-    float: left;
- 
+    float: right; /*interesantes interacciones*/
     border-radius: 10px;
-    box-shadow: 0px 2px 2px #000; /* derecha-px abajo-px izquierda-px #color */
-    
-}
-
-.contenido_juegos{  
-    float: left;
 }
 
 /*Anuncio de recomendaciones*/
-.contenido_juegos h3{
-    font-size: 18px;
-    padding: 15px 0px; /*Superior y valor en ambos laterales*/
+#contenido_juegos h3{
+    padding: 20px; /*Superior-inferior y valor en ambos laterales*/
     background: white;
     color: #4d78b3;
-
-    width: 220px;
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 15px;
+    font-weight: bold; /*Grueso de la fuente*/
+    width: 65%;
     border-radius: 10px; 
+    line-height: 20px;
+    margin: auto;
 }
 
 /*Título de videojuegos*/
-.contenido_juegos ul li{
-    border-radius: 10px;
+#contenido_juegos ul li{
     font-size: 20px;
-    margin: 10px;
+    border-radius: 10px;
+    margin: 20px 20px 0px 20px;
     padding: 15px 0px; /*Superior y valor en ambos laterales*/
+    font-weight: 500; /*Grueso de la fuente*/
 }
 
-.contenido_juegos ul li:hover {
-    background-color: #6C3483;
+#contenido_juegos ul li:hover {
+    background-color: #0471B5;
 }
 
 /*Portada de videojuegos*/
-.contenido_juegos ul img {
-    width: 210px; 
-
+#contenido_juegos ul img {
+    width: 80%; 
+    border: solid 2px white;
     border-radius: 10px;
-    margin: 0px 0px 10px 0px; /*arriba, derecha, abajo e izquierda*/
+    margin-top: 15px;
 }
