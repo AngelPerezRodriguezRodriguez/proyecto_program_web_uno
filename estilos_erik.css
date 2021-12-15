@@ -245,7 +245,7 @@ nav {
 
 .slider {
     position: relative;
-    background: #043c54;
+    background-image: radial-gradient(circle at 50% 47.14%, #64a5ff 0, #003a74 50%, #000000 100%);
     margin-left: 36%;
     margin-right: 19%;
     margin-top: 2%;
@@ -265,7 +265,7 @@ nav {
 
 .slider .slide.active {
     clip-path: circle(150% at 50% 50%);
-    transition: 2s;
+    transition: 4s;
 }
 
 .slider .slide img {
