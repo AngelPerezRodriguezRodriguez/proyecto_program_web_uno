@@ -2,6 +2,9 @@
     font-family: holy;
     src: url(fuentes/holysthic/Holysthic.ttf);
 }
+.back{
+    
+}
 .st1{
     background-color: rgb(148, 228, 111);
     background-image: radial-gradient(circle at 48.45% 32.29%, #9d5eb7 0, #804cb2 16.67%, #5c3aad 33.33%, #1a2ba8 50%, #0021a3 66.67%, #001d9e 83.33%, #00179a 100%);
@@ -11,9 +14,7 @@
     background-color: burlywood;
     font-size: 30px;
     width: 100%;
-
 }
-
 .tabla1{
     
     background-image: radial-gradient(circle at 94.62% 38.04%, #fffda4 0, #ffffa2 5%, #ffffa1 10%, #f6ffa0 15%, #e5ffa0 20%, #d3ffa1 25%, #beffa3 30%, #a7fda6 35%, #8dfaaa 40%, #6cf7af 45%, #3cf2b5 50%, #00edbd 55%, #00e8c6 60%, #00e4d1 65%, #00dfdd 70%, #00dbe9 75%, #00d7f6 80%, #00d3ff 85%, #00cfff 90%, #00ccff 95%, #00c8ff 100%);
