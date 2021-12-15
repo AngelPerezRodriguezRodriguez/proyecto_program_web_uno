@@ -48,10 +48,10 @@ body {
     border-image-slice: 75;
     border-radius: 10px;
     width: 800px;
+    overflow: hidden;
     margin-left: 15%;
     margin-right: 30%;
     margin-top: 2%;
-    overflow: hidden;
 }
 
 .slider .slide {
@@ -270,6 +270,7 @@ body {
 }
 
 .container {
+    padding-right: 20px;
     width: 140%;
     color: white;
     text-align: left;
