@@ -14,10 +14,11 @@ body {
 
 header {
     width:100%;
-    height:170px;
+    height:100%;
+    padding: 5px;
 
     background-color: #FFD447;
-    box-shadow: 0px 15px #6C3483; 
+    box-shadow: 0px 15px 0px #6C3483; 
 }
 
 /*Remueve los subrayados por defecto cuando implementamos: a*/
@@ -31,7 +32,6 @@ a {
 /*Posición del título de la página*/
 #titulo_pag{ 
     text-align: center;
-    padding-top: 15px;
 }
 
 /*Color, tamaño y fuente del título de la página*/
@@ -52,7 +52,7 @@ a {
     
 }
 
-/*Tamaño, tipo de letra y despliegue en fila en lugar de columna de los integrantes*/
+/*Despliegue en fila en lugar de columna de los integrantes*/
 #integrantes ul li{
     display: inline;
 }
@@ -78,122 +78,110 @@ a {
 
 
 
-#wrap{
+#principal {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+
+#contenido_completo {  /*AUMENTAR EL ESPACIO A LA DERECHA HACE LAS COSAS DE ABAJO DE proyectos SE SUBAN, pero podemos contraarrestralo aumentado el tamaño de la sidebar*/
     width: 960px;
     margin: auto;
     clear: both;
     
 }
 
-/*Bienvenida y Dinosaurio*/
 
-#main{
-    width: 100%;
-    margin: 20px 0px 0px 0px;
-    float: left;
-    padding-top: 5%; /*POR EL MOMENTO CONTROLO LA DISTANCIA ENTRE EL TÍTULO Y EL CONTENIDO*/
-}
+
+
+
+
+/*Bienvenida y gift*/
 
 #bienvenidos{
-    width: 920px;
-    float: left;
-    padding: 20px;
-    
+    width: 960px;
     background: #0471B5;
+    float: left;
     
-    margin: 20px 0px;
     border-radius: 10px;
-    box-shadow: 0px 2px 2px #000;/*Sombra*/
-     
+    box-shadow: 0px 10px 10px #000; /*Derecha, abajo y difuminado*/
+    margin: 20px 0px 80px 0px; /*Arriba, derecha, abajo e izquierda. Espacio entre bienvenida y proyectos*/
 }
-
-
-#slideshow{/*Control del dinosaurio*/
-    width: 920px;
-    float: left;  
-    border: solid 20px white;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    
-}
-
-
-#bienvenidos article h2{
-    font-family: sourcesans-light;
-    color:white;
-    font-size: 35px;
-    margin-bottom: 10px;
-    }
 
 #bienvenidos article {
-    color:white;
-    line-height: 27px;
+    line-height: 40px; /*Espacio entre los renglones*/
+    padding: 30px;
 }
 
-
-
-
-
-
-
-
+/*Título*/
+#bienvenidos article h2 {
+    font-size: 35px;
+    padding-bottom: 10px; /*Espacio entre el título y el texto*/
+    text-align: center;
+}
 
 /*Contenido*/
+#bienvenidos article p {
+    font-size: 25px;
+    text-align: center;
+}
 
-h1 {
-    text-align: right;
-    color: white;
+#gift_bienvenida {
+    width: 90%; 
+    margin: auto;
+    display: block;
+
+    border: solid 20px white;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 
-#contenido{
+
+
+
+
+/*proyectos*/
+
+#proyectos{
     width: 700px;
     float: left;
     
 }
 
-#contenido article{
+#proyectos article{
     float: left;
     margin-bottom: 20px;
 }
 
-#contenido article .titulo{
-    font-size: 22px;
+#proyectos article h1 {
+    color: white;
     font-family: sourcesans;
-    color:white;
+    font-size: 22px;
+    text-align: right;
 }
 
-#contenido article .fecha{
+
+#proyectos article .fecha{
     font-size: 15px;
     color: #1F618D;                                                                                    
     margin-bottom: 5px;
 }
 
-#contenido article .imagen{
+#proyectos article img{
     width: 220px; 
     height: 150px;
-    float: left;/*elementos a la izquierda*/
-    margin: 0px 10px 10px 0px;
-    
-}
-.imagen{ /*imagen formato*/
-    width: 220px;
-    height: 150px;
-    float: left;/*elementos a la izquierda*/
+    float: left;
     margin: 0px 10px 10px 0px;
     
 }
 
-#contenido article >p{
+#proyectos article p{
     color: white;
     font-size:20px;
     text-align: justify;
-    line-height: 30px;/*espaciando entre cada linea*/
+    line-height: 30px;/*espaciando entre los renglones*/
 }
-
-
-
-
 
 
 
@@ -202,39 +190,52 @@ h1 {
 
 /*Sidebar*/
 aside {
-    width: 220px;
+    width: 220px; /*AUMENTAR EL ESPACIO A LA DERECHA HACE LAS COSAS DE ABAJO DE proyectos SE SUBAN, pero podemos contraarrestralo aumentado el tamaño de la sidebar*/
+    padding: 10px 10px 0px 10px; /*arriba, derecha, abajo e izquierda*/ 
+    text-align: center;
+    background: #53B51F;
+    margin-left: 20px; /*Espacio entre los proyectos y la sidebar*/
     float: left;
-    margin-left: 20px;
-    background: #53B51F;                                                                                 /**/
-    padding: 10px 10px 0px 10px;/* arriva-px  derecha-px abajo-px izquierda-px*/   
-    border-radius: 10px;/*borde poniendo radios*/
+ 
+    border-radius: 10px;
     box-shadow: 0px 2px 2px #000; /* derecha-px abajo-px izquierda-px #color */
     
 }
 
-aside .widget{
-    
-    margin-bottom: 10px;
+.contenido_juegos{  
     float: left;
 }
 
-aside .widget>h3{
+/*Anuncio de recomendaciones*/
+.contenido_juegos h3{
+    font-size: 18px;
+    padding: 15px 0px; /*Superior y valor en ambos laterales*/
     background: white;
     color: #4d78b3;
+
     width: 220px;
-    padding: 10px 0px;
     text-align: center;
     font-weight: bold;
-    margin-bottom: 10px;
-    
+    margin-bottom: 15px;
+    border-radius: 10px; 
 }
 
-
-aside .widget{
-    color: white;
+/*Título de videojuegos*/
+.contenido_juegos ul li{
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 15px 0px; /*Superior y valor en ambos laterales*/
 }
 
-aside .widget ul li{
-    margin-bottom: 5px;
-    font-size: 15px;
+.contenido_juegos ul li:hover {
+    background-color: #6C3483;
+}
+
+/*Portada de videojuegos*/
+.contenido_juegos ul img {
+    width: 210px; 
+
+    border-radius: 10px;
+    margin: 0px 0px 10px 0px; /*arriba, derecha, abajo e izquierda*/
 }
