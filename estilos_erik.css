@@ -287,11 +287,11 @@ nav{
     transform: translateY(-50px);
     margin: 0 6px;
     border-radius: 2px;
-    box-shadow: 1px 4px 8px 1px rgb(204, 45, 243);   
+    box-shadow: 1px 4px 8px 1px rgb(223, 128, 4);   
 }
 
 .navigation-visibility .slide-icon.active {
-    background: #f867d4;
+    background: #e7a310;
 }
 
 @media (max-width: 900px) {
