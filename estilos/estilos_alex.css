@@ -34,15 +34,24 @@ body {
     list-style-image: url("https://live.staticflickr.com/65535/51744476631_91bfa7e459_o.png");
 }
 
+.alink {
+    text-decoration: none;
+    color: white;
+}
+
 .slider {
     position: relative;
-    background: #043c54;
-    width: 800px;
+    background-image: url("https://live.staticflickr.com/65535/51748595861_70a951b447_o.png");
+    background-size: 15%;
     min-height: 500px;
-    margin: 20px;
-    overflow: hidden;
-    border: solid 3px #2bbcf2;
+    border: solid 7px #2bbcf2;
+    border-image-slice: 75;
     border-radius: 10px;
+    width: 800px;
+    margin-left: 15%;
+    margin-right: 30%;
+    margin-top: 2%;
+    overflow: hidden;
 }
 
 .slider .slide {
@@ -71,7 +80,7 @@ body {
     width: 30%;
     padding-left: 20px;
     border-radius: 5px;
-    box-shadow: 0 5px 25px rgb(1 1 1 / 5%);
+    box-shadow: 1px 4px 8px 1px rgb(43, 188, 242);
 }
 
 .slider .slide .info h2 {
@@ -126,11 +135,11 @@ body {
     transform: translateY(-50px);
     margin: 0 6px;
     border-radius: 2px;
-    box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+    box-shadow: 1px 4px 8px 1px rgb(43, 188, 242);
 }
 
 .navigation-visibility .slide-icon.active {
-    background: #4285F4;
+    background: #043c54;
 }
 
 @media (max-width: 900px) {
@@ -261,11 +270,10 @@ body {
 }
 
 .container {
-    padding: 1px 16px;
-    width: 100%;
+    width: 140%;
     color: white;
     text-align: left;
-    float: right;
+    align-items: center;
 }
 
 .cuadro2 {
@@ -274,15 +282,8 @@ body {
     border-radius: 15px;
     color: #2bbcf2;
     text-align: center;
-    padding-left: 2px;
-    padding-top: 2px;
-    padding-right: 2px;
 }
 
-.cuadro3 {
-    background-color: #043c54;
-    border: solid 3px #2bbcf2;
-    border-radius: 15px;
-    color: #2bbcf2;
-    text-align: center;
+.pad {
+    padding-left: 400px;
 }
