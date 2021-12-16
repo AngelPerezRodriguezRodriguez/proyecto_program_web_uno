@@ -193,6 +193,7 @@ header {
 
 /*Fin de carta*/
 
+/*Recuadro de en medio*/
 .solaire {    
     background-repeat: no-repeat;
     background-image: url(imagenes/solarire_sentado.gif);
@@ -202,23 +203,28 @@ header {
     margin-bottom: 8%;
     margin-left: 36%;    
 }
-
-.catarina {
-    cursor: url("imagenes/hoguera.png"), help;
+/*Imagen del footer*/
+.hoguera{
+    margin-left: 24%;
+    width: 30px;
+    margin-top: -3.4%;
+    position: absolute;
+    border: black 2px solid;
+    border-image-source: url("imagenes/marco.png");
+    border-image-slice: 75;
 }
-
-
+/*Marco utilizado en todas las imagenes*/
 .marco {
     border: black 15px solid;
     border-image-source: url("imagenes/marco.png");
     border-image-slice: 75;
     text-align: right;
 }
-
+/*Recuadro de texto 1*/
 .parte1 {
     padding-top: 8%;
 }
-
+/*Footer*/
 .te {    
     color: white;
     margin-left: 17%;
@@ -242,7 +248,7 @@ nav {
     text-align-last:end;
 }
 
-
+/*Usado para el formato del carrer de imagenes*/
 .slider {
     position: relative;
     background-image: radial-gradient(circle at 50% 47.14%, #64a5ff 0, #003a74 50%, #000000 100%);
