@@ -53,6 +53,7 @@
 }
 .tex4{
     color: rgb(85, 195, 247);
+    font-family: holy;
 
 }
 .bo{
@@ -60,4 +61,5 @@
     margin: 10px;
 }
 .foot{
+    background-color: rgb(70, 35, 12);
 }
