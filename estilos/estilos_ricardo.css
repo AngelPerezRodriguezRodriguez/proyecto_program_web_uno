@@ -27,16 +27,22 @@
     border-radius: 15px;
     padding: 30px;
     color: cornsilk;
+    font-size: 18px;
 }
 .table3{
     background-color: darkcyan;
     background-image: url(https://i.gifer.com/1frW.gif);
     color: darkorange;
+    font-size: 20px;
     border-radius: 15px;
 }
 .titulo1{
     font-size: 30px;
     font-family:holy;
+}
+.titulo2{
+    font-size: 36px;
+    color: turquoise;
 }
 .tex1{
     text-align:center;
@@ -54,6 +60,7 @@
 .tex4{
     color: rgb(85, 195, 247);
     font-family: holy;
+    font-size: 20px;
 
 }
 .bo{
