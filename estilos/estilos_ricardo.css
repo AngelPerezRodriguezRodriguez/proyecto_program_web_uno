@@ -19,6 +19,7 @@
     
     background-image: radial-gradient(circle at 94.62% 38.04%, #fffda4 0, #ffffa2 5%, #ffffa1 10%, #f6ffa0 15%, #e5ffa0 20%, #d3ffa1 25%, #beffa3 30%, #a7fda6 35%, #8dfaaa 40%, #6cf7af 45%, #3cf2b5 50%, #00edbd 55%, #00e8c6 60%, #00e4d1 65%, #00dfdd 70%, #00dbe9 75%, #00d7f6 80%, #00d3ff 85%, #00cfff 90%, #00ccff 95%, #00c8ff 100%);
     border-radius: 15px;
+    margin: 15px;
 }
 .tabla2{
     background-image: url(https://t3.ftcdn.net/jpg/04/70/27/74/240_F_470277412_FMl8tCJJ92YKnxG4askV7XcG5NDG7iyT.jpg);
