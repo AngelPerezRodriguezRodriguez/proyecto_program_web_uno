@@ -24,9 +24,10 @@ body {
 
 .border3 {
     width: 34%;
-    border: solid #2bbcf2 10px;
+    border: solid #2bbcf2 7px;
     border-radius: 30px;
-    padding-left: 2px;
+    padding-left: 1px;
+    margin: 7px;
     background-color: #2bbcf2;
 }
 
@@ -191,6 +192,15 @@ body {
     justify-content: space-between;
 }
 
+.fondo {
+    background-color: #043c54;
+    border: solid 3px #2bbcf2;
+    width: 93%;
+    border-radius: 30px;
+    padding: 1%;
+    float: center;
+}
+
 .fondo2 {
     background-color: #043c54;
     border: solid 3px #2bbcf2;
@@ -255,6 +265,7 @@ body {
     color: #2bbcf2;
     padding-left: 20px;
     text-align: justify;
+    margin: 20px;
 }
 
 .text3 {
@@ -302,4 +313,10 @@ body {
 
 .pad {
     padding-left: 400px;
+}
+
+.marge {
+    background-color: #043c54;
+    border: solid 5px #2bbcf2;
+    border-radius: 15px;
 }
