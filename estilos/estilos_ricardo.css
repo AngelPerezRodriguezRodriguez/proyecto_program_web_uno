@@ -20,7 +20,6 @@
     background-image: url(http://game-wisdom.com/wp-content/uploads/2018/02/Celeste-4.jpg);
     background-size: cover;
     border-radius: 15px;
-    margin: 15px;
     padding-top: 20px;
     margin-bottom: 50px;
     padding-left: 40px;
@@ -28,7 +27,7 @@
 }
 .tabla2{
     background-image: url(https://t3.ftcdn.net/jpg/04/70/27/74/240_F_470277412_FMl8tCJJ92YKnxG4askV7XcG5NDG7iyT.jpg);
-    margin: 25px;
+    background-size: cover;
     border-radius: 15px;
     padding: 30px;
     color: cornsilk;
@@ -37,9 +36,9 @@
     width: 100%;
 }
 .table3{
-    margin: 25px;
     background-color: darkcyan;
     background-image: url(https://i.gifer.com/1frW.gif);
+    background-size: cover;
     color: white;
     font-size: 20px;
     border-radius: 15px;
@@ -47,7 +46,6 @@
     width: 100%;
 }
 .table4{
-    margin: 25px;
     padding-top: 10px;
     border:white 5px;
     margin-bottom: 50px;
@@ -55,7 +53,6 @@
     background-image: url(https://p1.pxfuel.com/preview/301/193/242/astrophotography-photos-galaxy-milky-way.jpg);
 }
 .table5{
-    margin: 20px;
     margin-bottom: 50px;
     width: 100%;
 }
