@@ -185,6 +185,7 @@ header {
     margin-left: 19%;
     margin-top: -30%;
     margin-bottom: 21%;
+    border-radius: 100%;
 }
 .cuadro4 img{
     transform: scaleX(-1); 
@@ -232,21 +233,25 @@ header {
     margin-top: -4%;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-    margin-left: 48px;
 
+.te nav li a:hover  {
+    background-image: radial-gradient(circle at 50% 50%, #ff6300 0, #ff4500 25%, #ff0000 50%, #f30008 75%, #e90012 100%);
+    margin-left: 4px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
 }
-
+a{
+    text-decoration: none;
+    color: white;    
+    padding: 2px;
+}
 nav {
     margin-top: 1%;
     margin-left: 4%;
 }
 
-.mar{
-    text-align-last:end;
-}
+
 
 /*Usado para el formato del carrer de imagenes*/
 .slider {
