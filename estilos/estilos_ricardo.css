@@ -82,7 +82,7 @@
     background: rgba(255, 255, 255, 0.4)
 }
 .tex3{
-    color: rgb(248, 162, 105);
+    color: rgb(0, 0, 0);
     padding: 50px;
 }
 .tex4{
@@ -93,9 +93,12 @@
 .tex5{
     color: white;
 }
+.tex6{
+    color: rgb(45, 213, 255);
+}
 .bo{
     border-radius: 30px;
-    margin-left: 6%;  
+    margin-left: 5%;  
 }
 .bo1{ 
     border-radius:30px ;
