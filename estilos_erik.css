@@ -102,7 +102,7 @@ header {
 }
 
 .cuadrotext1 {
-    background-color: white;
+    background-image: radial-gradient(circle at 44.66% 111.03%, #ffb95b 0, #fca84d 25%, #f2943d 50%, #e8802e 75%, #e06d25 100%);
     text-align: center;
     width: 45%;
     margin-left: 17%;
@@ -112,7 +112,7 @@ header {
 }
 
 .cuadrotext2 {
-    background-color: white;
+    background-image: radial-gradient(circle at 44.66% 111.03%, #ff7649 0, #fe6244 25%, #f2483d 50%, #e62738 75%, #dc0036 100%);
     width: 45%;
     margin-left: 34%;
     margin-top: -5%;
