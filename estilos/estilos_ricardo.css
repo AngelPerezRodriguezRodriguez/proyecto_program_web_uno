@@ -22,7 +22,7 @@
     border-radius: 15px;
     padding-top: 20px;
     margin-bottom: 50px;
-    padding-left: 40px;
+    padding-left: 55px;
     width: 100%;
 }
 .tabla2{
@@ -95,7 +95,7 @@
 }
 .bo{
     border-radius: 30px;
-    margin-left: 10%;  
+    margin-left: 6%;  
 }
 .bo1{ 
     border-radius:30px ;
@@ -110,7 +110,7 @@
 }
 .foot{
     background-image: radial-gradient(circle at 97.61% 50%, #ba0eb1 0, #940ba1 16.67%, #6c068d 33.33%, #420074 50%, #15005a 66.67%, #000043 83.33%, #00002f 100%);
-    margin-left: -2%;
+    margin: 5%;
     border: solid white 1px;
 }
 .pad1{
