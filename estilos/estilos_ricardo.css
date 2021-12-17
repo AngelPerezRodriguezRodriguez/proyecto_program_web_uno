@@ -31,14 +31,13 @@
     border-radius: 15px;
     padding: 30px;
     color: cornsilk;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 50px;
     width: 100%;
 }
 .table3{
     background-color: darkcyan;
     background-image: url(https://i.gifer.com/1frW.gif);
-    background-size: cover;
     color: white;
     font-size: 20px;
     border-radius: 15px;
@@ -70,32 +69,58 @@
     font-size: 20px;
     padding-right: 25px;
     color: black;
-
+    border: solid white;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.6)
 }
 .tex2{
     font-size: 20px;
     padding: 15px;
     color: black;
+    border: solid pink;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.4)
 }
 .tex3{
     color: rgb(248, 162, 105);
+    padding: 50px;
 }
 .tex4{
     color: rgb(85, 195, 247);
     font-family: holy;
     font-size: 20px;
-
+}
+.tex5{
+    color: white;
 }
 .bo{
     border-radius: 30px;
-    
+    margin-left: 10%;  
+}
+.bo1{ 
+    border-radius:30px ;
+    margin: 5px;
+}
+.bo2{
+    border-radius: 30px;
+    margin-left: 40%;
+}
+.bo3{
+    border-radius: 30px;
 }
 .foot{
     background-color: rgb(70, 35, 12);
+    margin-left: -2%;
+    border: solid white 1px;
 }
 .pad1{
     padding-left: 10px;
+    border-radius: 5px;
 }
 .pad2{
     padding-right: 10px;
+    border-radius: 5px;
+}
+.pad3{
+    border-radius: 5px;
 }
