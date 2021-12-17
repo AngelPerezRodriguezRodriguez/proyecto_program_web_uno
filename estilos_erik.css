@@ -347,6 +347,7 @@ nav {
 
 .navigation-visibility .slide-icon.active {
     background: #e7a310;
+    box-shadow: 1px 4px 16px 1px rgb(247, 131, 23);
 }
 
 @media (max-width: 900px) {
