@@ -113,14 +113,15 @@ a {
 
 #proyectos{
     float:left;  
-    width:71%;
+    height: 1260px;
+    width: 75%;
 }
 
 /*Borde de los proyectos*/
 #proyectos article{
     background-color:#540760;
     border-radius:10px;
-    box-shadow:0px 10px 10px #000; /*Derecha, abajo y difuminado*/
+    box-shadow:0px 10px 10px #000;
     float:left;
     margin-bottom:20px;
     padding:30px;
@@ -161,7 +162,7 @@ a {
 /*Contenido del proyecto*/
 #proyectos article p{
     font-size:17px;
-    line-height:30px; /*espaciando entre los renglones*/
+    line-height:30px;
     text-align:justify;
 }
 
@@ -175,10 +176,11 @@ a {
 aside {
     background-color:#53B51F;
     border-radius:10px;
-    float:right; /*interesantes interacciones*/                                                               
+    float:right; /*Interesantes interacciones*/  
+    height: 1200px;                                                             
     padding:20px 0px;
     text-align:center;
-    width:22.5%;
+    width: 20%;
 }
 
 /*Anuncio de recomendaciones*/
@@ -190,18 +192,18 @@ aside {
     font-weight:bold;
     line-height:20px;
     margin:auto;
-    padding:20px; /*Superior-inferior y valor en ambos laterales*/
+    padding:20px;
     width:70%;
 }
 
-/*Título de videojuegos*/
+/*Videojuegos*/
 #contenido_juegos ul li{
     border-radius:10px;
     color:black;
     font-size:20px;
-    font-weight:500; /*Grueso de la fuente*/
-    margin:20px 20px 0px 20px;
-    padding:15px 0px; /*Superior y valor en ambos laterales*/
+    font-weight:500;
+    margin:50px 20px 0px 20px;
+    padding:15px 0px; /*Superior y ambos laterales*/
 }
 
 #contenido_juegos ul li:hover {
