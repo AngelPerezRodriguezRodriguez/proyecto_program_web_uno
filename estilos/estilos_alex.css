@@ -22,6 +22,10 @@ body {
     width: 14%;
 }
 
+.border2 {
+    border-radius: 10px;
+}
+
 .border3 {
     width: 34%;
     border: solid #2bbcf2 7px;
