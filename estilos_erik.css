@@ -251,6 +251,12 @@ nav {
     margin-left: 4%;
 }
 
+.copyright p{
+    background-image: url(imagenes/fuego.jpg);
+    width: 100%;
+    color: white;
+}
+
 
 
 /*Usado para el formato del carrer de imagenes*/
