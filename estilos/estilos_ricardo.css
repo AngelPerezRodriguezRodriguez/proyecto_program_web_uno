@@ -1,10 +1,3 @@
-@font-face {
-    font-family: holy;
-    src: url(fuentes/holysthic/Holysthic.ttf);
-}
-
-    
-
 .st1{
     background-color: rgb(148, 228, 111);
     background-image: radial-gradient(circle at 48.45% 32.29%, #9d5eb7 0, #804cb2 16.67%, #5c3aad 33.33%, #1a2ba8 50%, #0021a3 66.67%, #001d9e 83.33%, #00179a 100%);
