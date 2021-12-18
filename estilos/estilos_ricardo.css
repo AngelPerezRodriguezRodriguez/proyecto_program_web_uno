@@ -2,9 +2,9 @@
     font-family: holy;
     src: url(fuentes/holysthic/Holysthic.ttf);
 }
-.back{
+
     
-}
+
 .st1{
     background-color: rgb(148, 228, 111);
     background-image: radial-gradient(circle at 48.45% 32.29%, #9d5eb7 0, #804cb2 16.67%, #5c3aad 33.33%, #1a2ba8 50%, #0021a3 66.67%, #001d9e 83.33%, #00179a 100%);
@@ -20,9 +20,9 @@
     background-image: url(http://game-wisdom.com/wp-content/uploads/2018/02/Celeste-4.jpg);
     background-size: cover;
     border-radius: 15px;
-    padding-top: 20px;
+    padding: 1%;
     margin-bottom: 50px;
-    padding-left: 55px;
+    
     width: 100%;
 }
 .tabla2{
@@ -45,7 +45,8 @@
     width: 100%;
 }
 .table4{
-    padding-top: 10px;
+    padding: 1%;
+    border-radius: 10px;
     border:white 5px;
     margin-bottom: 50px;
     width: 100%;
@@ -61,8 +62,9 @@
     font-family:holy;
 }
 .titulo2{
-    font-size: 36px;
+    font-size: 40px;
     color: turquoise;
+    
 }
 .tex1{
     text-align:center;
@@ -82,8 +84,7 @@
     background: rgba(255, 255, 255, 0.4)
 }
 .tex3{
-    color: rgb(0, 0, 0);
-    padding: 50px;
+    color: rgb(255, 136, 0);
 }
 .tex4{
     color: rgb(85, 195, 247);
@@ -95,6 +96,13 @@
 }
 .tex6{
     color: rgb(45, 213, 255);
+}
+.tex7{
+    padding: 50px;
+    text-align: justify;
+}
+.tex8{
+    color: black;
 }
 .bo{
     border-radius: 30px;
