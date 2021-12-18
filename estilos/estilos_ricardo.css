@@ -103,6 +103,7 @@
 }
 .tex8{
     color: black;
+    padding: 40px;
 }
 .bo{
     border-radius: 30px;
@@ -114,7 +115,7 @@
 }
 .bo2{
     border-radius: 30px;
-    margin-left: 40%;
+    margin-left: 35%;
 }
 .bo3{
     border-radius: 30px;
